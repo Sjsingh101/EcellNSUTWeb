@@ -228,10 +228,10 @@ input:-moz-placeholder {
     color:#ffffff;
 }
 .btn-color:before{
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #14BBF8;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e59500;
 }
 .btn-color:after{
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #14BBF8;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e59500;
 }
 
 
@@ -281,7 +281,7 @@ input:-moz-placeholder {
     padding: 8px 18px;
 }
 .section-title h2 span {
-    color: #14BBF8;
+    color: #e59500;
 }
 .section-title h2:before {
     content: "";
@@ -289,7 +289,7 @@ input:-moz-placeholder {
     left: 0;
     top: 0;
     z-index: 0;
-    border: 3px solid #14BBF8;
+    border: 3px solid #e59500;
     border-bottom: none;
     border-right: none;
     width: 40px;
@@ -301,7 +301,7 @@ input:-moz-placeholder {
     right: 0;
     bottom: 0;
     z-index: 0;
-    border: 3px solid #14BBF8;
+    border: 3px solid #e59500;
     border-top: none;
     border-left: none;
     width: 40px;
@@ -341,7 +341,7 @@ input:-moz-placeholder {
     position: absolute;
     left: 0;
     bottom: 10px;
-    color: #14BBF8;
+    color: #e59500;
     font-size: 45px;
 }
 
@@ -403,7 +403,7 @@ input:-moz-placeholder {
 .main-header .navbar-light .navbar-nav .nav-link.active, 
 .main-header .navbar-light .navbar-nav .nav-link.show, 
 .main-header .navbar-light .navbar-nav .show>.nav-link {
-    color: #14BBF8;
+    color: #e59500;
 }
 .main-header .fixed-top {
     -webkit-transition: all 0.5s ease-in-out;
@@ -430,7 +430,7 @@ input:-moz-placeholder {
 .main-header .navbar-light.scrolling-header .navbar-nav .nav-link.active, 
 .main-header .navbar-light.scrolling-header .navbar-nav .nav-link.show, 
 .main-header .navbar-light.scrolling-header .navbar-nav .show>.nav-link {
-    color: #14BBF8;
+    color: #e59500;
 }
 .logo-white {
     display: block;
@@ -513,7 +513,7 @@ input:-moz-placeholder {
     left: 0;
     top: 0;
     z-index: 0;
-    border: 3px solid #14BBF8;
+    border: 3px solid #e59500;
     border-bottom: none;
     border-right: none;
     width: 150px;
@@ -525,7 +525,7 @@ input:-moz-placeholder {
     right: 0;
     bottom: 0;
     z-index: 0;
-    border: 3px solid #14BBF8;
+    border: 3px solid #e59500;
     border-top: none;
     border-left: none;
     width: 150px;
@@ -540,11 +540,11 @@ input:-moz-placeholder {
     letter-spacing: 2px;
 }
 .hero-col h2 span {
-    color: #14BBF8;
+    color: #e59500;
 }
 .hero-col h4 {
     font-size: 30px;
-    color: #14BBF8;
+    color: #e59500;
     margin-bottom: 30px;
 }
 .countdown {
@@ -579,7 +579,7 @@ input:-moz-placeholder {
     left: 0;
     top: 0;
     z-index: 0;
-    border: 2px solid #14BBF8;
+    border: 2px solid #e59500;
     border-bottom: none;
     border-right: none;
     width: 30px;
@@ -591,7 +591,7 @@ input:-moz-placeholder {
     right: 0;
     bottom: 0;
     z-index: 0;
-    border: 2px solid #14BBF8;
+    border: 2px solid #e59500;
     border-top: none;
     border-left: none;
     width: 30px;
@@ -610,7 +610,7 @@ input:-moz-placeholder {
 .scroll-animate-icon i {
     width: 50px;
     height: 50px;
-    color: #14BBF8;
+    color: #e59500;
     font-size: 50px;
     line-height: 50px;
     text-align: center;
@@ -685,7 +685,7 @@ input:-moz-placeholder {
     margin-bottom: 30px;
 }
 .about-col h2 span {
-    color: #14BBF8;
+    color: #e59500;
 }
 .about-col h4 {
     font-size: 18px;
@@ -694,7 +694,7 @@ input:-moz-placeholder {
 .about-col .cd-headline {
     font-size: 24px;
     font-weight: 500;
-    background: #14BBF8;
+    background: #e59500;
     color: #f3f3f3;
     padding: 5px 15px;
     margin-top: 30px;
@@ -713,7 +713,7 @@ input:-moz-placeholder {
     border-radius: 0;
     color: #ffffff;
     font-size: 20px;
-    background: #14BBF8;
+    background: #e59500;
 }
 .about-col .owl-carousel .owl-nav .owl-next {
     position: absolute;
@@ -753,7 +753,7 @@ input:-moz-placeholder {
 .organizer-col h1 {
     font-family: 'Lobster', cursive;
     font-size: 70px;
-    color: #14BBF8;
+    color: #e59500;
     font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 35px;
@@ -766,7 +766,7 @@ input:-moz-placeholder {
 }
 .organizer-col ul li i {
     margin-right: 5px;
-    color: #14BBF8;
+    color: #e59500;
 }
 
 
@@ -826,7 +826,7 @@ input:-moz-placeholder {
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background: #14BBF8;
+    background: #e59500;
     font-size: 15px;
     color: #fff;
     margin: 0 5px;
@@ -856,7 +856,7 @@ input:-moz-placeholder {
     content: "";
     width: 3px;
     height: 50%;
-    background: #14BBF8;
+    background: #e59500;
     position: absolute;
     top: 50%;
     left: 0;
@@ -879,7 +879,7 @@ input:-moz-placeholder {
     border-radius: 0;
     color: #ffffff;
     font-size: 20px;
-    background: #14BBF8;
+    background: #e59500;
 }
 .speakers-area .owl-carousel .owl-nav .owl-next {
     position: absolute;
@@ -937,7 +937,7 @@ input:-moz-placeholder {
     content: "";
     width: 100%;
     height: 190%;
-    background: #14BBF8;
+    background: #e59500;
     position: absolute;
     top: -76%;
     right: -16%;
@@ -1064,7 +1064,7 @@ input:-moz-placeholder {
 }
 .tab-panels ul li.active {
   color: #fff;
-  background: #14BBF8;
+  background: #e59500;
 }
 
 .tab-panels .panel {
@@ -1091,7 +1091,7 @@ input:-moz-placeholder {
 }
 .schedule-box h4 {
     font-size: 16px;
-    color: #14BBF8;
+    color: #e59500;
     padding-top: 10px;
 }
 .schedule-box h3 {
@@ -1123,7 +1123,7 @@ input:-moz-placeholder {
     margin-bottom: 0;
 }
 .venue-details ul li i {
-    color: #14BBF8;
+    color: #e59500;
     font-size: 18px;
     width: 20px;
 }
@@ -1137,7 +1137,7 @@ input:-moz-placeholder {
     width: 40px;
     height: 40px;
     background: #ffffff;
-    color: #14BBF8;
+    color: #e59500;
     text-align: center;
     font-size: 20px;
     line-height: 40px;
@@ -1150,7 +1150,7 @@ input:-moz-placeholder {
 }
 .share-links ul li a i:hover {
     color: #ffffff;
-    background: #14BBF8;
+    background: #e59500;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1230,7 +1230,7 @@ input:-moz-placeholder {
 }
 .box .title{
     font-size: 24px;
-    color: #14BBF8;
+    color: #e59500;
     text-transform: capitalize;
     margin: 0 0 20px 0;
 }
@@ -1290,7 +1290,7 @@ input:-moz-placeholder {
     z-index: 0;
     width: 60px;
     height: 60px;
-    border: 2px solid #14BBF8;
+    border: 2px solid #e59500;
     border-bottom: none;
     border-right: none;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1307,7 +1307,7 @@ input:-moz-placeholder {
     z-index: 0;
     width: 60px;
     height: 60px;
-    border: 2px solid #14BBF8;
+    border: 2px solid #e59500;
     border-top: none;
     border-left: none;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1327,7 +1327,7 @@ input:-moz-placeholder {
 }
 .counter-col .counter {
     font-size: 40px;
-    color: #14BBF8;
+    color: #e59500;
     margin-bottom: 20px;
 }
 .counter-col p {
@@ -1400,7 +1400,7 @@ input:-moz-placeholder {
     bottom: 0;
     z-index: 9;
     padding: 10px 20px;
-    background: #14BBF8;
+    background: #e59500;
     text-align: center;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1415,7 +1415,7 @@ input:-moz-placeholder {
     top: 0;
     width: 0;
     height: 100%;
-    border-left: 40px solid #14BBF8;
+    border-left: 40px solid #e59500;
     border-top: 43px solid transparent;
 }
 .post-date h3 {
@@ -1431,7 +1431,7 @@ input:-moz-placeholder {
     color: #111111;
 }
 .blog-col h4 a:hover {
-    color: #14BBF8;
+    color: #e59500;
 }
 .info-bar {
     margin-top: 20px;
@@ -1446,7 +1446,7 @@ input:-moz-placeholder {
 }
 .info-bar ul li i {
     margin-right: 5px;
-    color: #14BBF8;
+    color: #e59500;
 }
 .info-bar ul li a {
     color: #333333;
@@ -1482,7 +1482,7 @@ input:-moz-placeholder {
 }
 .blog-details-area .blog-date ul li i {
     margin-right: 5px;
-    color: #14BBF8;
+    color: #e59500;
 }
 .blog-details-area .blog-date ul li a {
     color: #333333;
@@ -1501,7 +1501,7 @@ input:-moz-placeholder {
     background: #F5F5F5;
     margin-bottom: 30px;
     margin-top: 30px;
-    border-left: 3px solid #14BBF8;
+    border-left: 3px solid #e59500;
 }
 .highlight-text p {
     font-weight: bold;
@@ -1542,7 +1542,7 @@ input:-moz-placeholder {
     margin-bottom: 10px;
 }
 .comment-item a i {
-    color: #14BBF8;
+    color: #e59500;
 }
 
 .form-area .hvr-bounce-to-right {
@@ -1604,7 +1604,7 @@ input:-moz-placeholder {
     z-index: 0;
     width: 60px;
     height: 60px;
-    border: 2px solid #14BBF8;
+    border: 2px solid #e59500;
     border-bottom: none;
     border-right: none;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1621,7 +1621,7 @@ input:-moz-placeholder {
     z-index: 0;
     width: 60px;
     height: 60px;
-    border: 2px solid #14BBF8;
+    border: 2px solid #e59500;
     border-top: none;
     border-left: none;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1642,7 +1642,7 @@ input:-moz-placeholder {
 .info-box i {
     width: 70px;
     height: 70px;
-    color: #14BBF8;
+    color: #e59500;
     background: #ffffff;
     text-align: center;
     font-size: 35px;
@@ -1692,7 +1692,7 @@ input:-moz-placeholder {
 }
 .page-title-section h2 {
     font-size: 45px;
-    color: #14BBF8;
+    color: #e59500;
 }
 .page-title-section p {
     color: #ffffff;
@@ -1701,7 +1701,7 @@ input:-moz-placeholder {
     color: #ffffff;
 }
 .page-title-section p a:hover {
-    color: #14BBF8;
+    color: #e59500;
 }
 
 
@@ -1748,7 +1748,7 @@ input:-moz-placeholder {
     position: relative;
 }
 .copyright p a {
-    color: #14BBF8;
+    color: #e59500;
 }
 
 
@@ -1783,7 +1783,7 @@ input:-moz-placeholder {
 }
 .dark-version .tab-panels ul li.active {
     color: #fff;
-    background: #14BBF8;
+    background: #e59500;
 }
 .dark-version .venue-details {
     background: #000000;
@@ -1831,7 +1831,7 @@ input:-moz-placeholder {
 }
 .main-demo-heading h1 {
     font-family: 'Lobster', cursive;
-    color: #14BBF8;
+    color: #e59500;
     font-size: 70px;
     font-weight: normal;
 }
@@ -1841,17 +1841,17 @@ input:-moz-placeholder {
     margin-bottom: 50px;
 }
 .buy-btn {
-    background: #14BBF8;
+    background: #e59500;
     color: #ffffff;
-    border: 1px solid #14BBF8;
+    border: 1px solid #e59500;
     padding: 10px 40px;
     border-radius: 0;
     text-transform: capitalize;
 }
 .buy-btn:hover {
-    background: #14BBF8;
+    background: #e59500;
     color: #ffffff;
-    border-color: #14BBF8;
+    border-color: #e59500;
 }
 
 
@@ -1877,7 +1877,7 @@ input:-moz-placeholder {
 }
 .template-features-col h5 {
     margin-bottom: 80px;
-    color: #14BBF8;
+    color: #e59500;
     font-size: 18px;
     text-transform: capitalize;
 }
@@ -1909,7 +1909,7 @@ input:-moz-placeholder {
     color: #111111;
 }
 .live-preview-area h3 a:hover {
-    color: #14BBF8;
+    color: #e59500;
 }
 .demo-box {
     margin-bottom: 40px;
@@ -1969,7 +1969,7 @@ input:-moz-placeholder {
     transition: all 0.4s ease-in-out;
 }
 .demo-over-layer h4 a:hover {
-    color: #14BBF8;
+    color: #e59500;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
