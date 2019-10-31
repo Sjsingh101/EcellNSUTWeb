@@ -51,7 +51,7 @@
     <!-- MASTER  STYLESHEET  -->
     <link id="lgx-master-style" rel="stylesheet" href="css/style-default.min.css" media="all" />
 
-    <!-- Signup css -->
+   
     <link href="http://cdn.phpoll.com/css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -59,50 +59,63 @@
             width: 320px !important;
             height: 450px !important;
         }
-.fa:hover {
-    opacity: 0.7;
-}
 
-.fa-facebook {
-    padding: 20px;
-  font-size: 30px;
+        .fa:hover {
+            opacity: 0.7;
+        }
 
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  background: #3B5998;
-  color: white;
-  width: 70px;
-}
+        .fa-facebook {
+            padding: 20px;
+            font-size: 30px;
 
-.fa-twitter {
-    padding: 20px;
-  font-size: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            background: #3B5998;
+            color: white;
+            width: 70px;
+        }
 
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  background: #55ACEE;
-  color: white;
-  width: 70px;
-}
+        .fa-twitter {
+            padding: 20px;
+            font-size: 30px;
+
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            background: #55ACEE;
+            color: white;
+            width: 70px;
+        }
 
 
-.fa-linkedin {
-    padding: 20px;
-  font-size: 30px;
+        .fa-linkedin {
+            padding: 20px;
+            font-size: 30px;
 
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  background: #007bb5;
-  color: white;
-  width: 70px;
-}
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+            background: #007bb5;
+            color: white;
+            width: 70px;
+        }
 
+        @media screen and (max-width: 1600px) and (min-width: 1367px) {
+            #mediadiv {
+                padding-left: 260px;
+                
+            }
+        }
+
+        @media screen and (max-width: 1367px) and (min-width: 990px) {
+            #mediadiv {
+                padding-left: 210px;
+            }
+        }
     </style>
 
 </head>
@@ -117,8 +130,10 @@
         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container" style="margin-top: 3px;">
                 <a class="navbar-brand" href="index-one.html">
-                    <img class="logo-white" src="images/logo.png" alt="" style="margin-left:-35%;width:60px;height:70px; !important" >
-                    <img class="logo-black" src="images/logo-black.png" alt="" style="margin-left:-35%;width:60px;height:70px; !important">
+                    <img class="logo-white" src="images/logo.png" alt=""
+                        style="margin-left:-35%;width:60px;height:70px; !important">
+                    <img class="logo-black" src="images/logo-black.png" alt=""
+                        style="margin-left:-35%;width:60px;height:70px; !important">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -134,7 +149,7 @@
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#about">About</a>
                         </li>
-                       
+
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#initiatives">Initiatives</a>
                         </li>
@@ -144,14 +159,12 @@
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#speakers">Our Team</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#gallery">Gallery</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <!-- <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown"
                                 style="padding:20px; color:#E59500;">Register
@@ -192,7 +205,7 @@
                             </ul>
                         </li>
 
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </nav>
@@ -207,7 +220,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="hero-col">
-                                <h2 style="  text-transform: none;!important">  eCell  </h2>
+                                <h2 style="  text-transform: none;!important"> eCell </h2>
                                 <h4>Netaji Subhas University of Technology, Delhi</h4><br>
                                 <div class='countdown' data-date="2019-03-27"></div>
                             </div>
@@ -271,7 +284,139 @@
         </div>
     </section>
 
-   
+    <!--carousel-Initiatives start-->
+    <!-- <section class="ticket-area jarallax over-layer-black" id="initiatives">
+        <img class="jarallax-img" src="images/bg/3.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2> Our <span>Initiatives </span></h2>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="lgx-single-speaker2 lgx-single-speaker3">
+                                    
+                                    <figure>
+                                        <a class="profile-img"><img src="images/speakers/speaker1.png"
+                                                alt="speaker" /></a>
+                                        <figcaption>
+
+                                            <div class="speaker-info">
+                                                <h3 class="title">INDUSTRY 4.0</h3>
+                                                <h4 class="subtitle">TAG</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="lgx-single-speaker2 lgx-single-speaker3">
+                                   
+                                    <figure>
+                                        <a class="profile-img"><img src="images/speakers/speaker2.jpg"
+                                                alt="speaker" /></a>
+                                        <figcaption>
+
+                                            <div class="speaker-info">
+                                                <h3 class="title">BAAZIGAR</h3>
+                                                <h4 class="subtitle">TAG</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="lgx-single-speaker2 lgx-single-speaker3">
+                                    
+                                    <figure>
+                                        <a class="profile-img"><img src="images/speakers/speaker4.png"
+                                                alt="speaker" /></a>
+                                        <figcaption>
+
+                                            <div class="speaker-info">
+                                                <h3 class="title">​IDEATHON</h3>
+                                                <h4 class="subtitle">TAG</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="lgx-single-speaker2 lgx-single-speaker3">
+                                   
+                                    <figure>
+                                        <a class="profile-img"><img src="images/speakers/speaker2.jpg"
+                                                alt="speaker" /></a>
+                                        <figcaption>
+
+                                            <div class="speaker-info">
+                                                <h3 class="title">BAAZIGAR</h3>
+                                                <h4 class="subtitle">TAG</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="lgx-single-speaker2 lgx-single-speaker3">
+                                   
+                                    <figure>
+                                        <a class="profile-img"><img src="images/speakers/speaker4.png"
+                                                alt="speaker" /></a>
+                                        <figcaption>
+
+                                            <div class="speaker-info">
+                                                <h3 class="title">​IDEATHON</h3>
+                                                <h4 class="subtitle">TAG</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="lgx-single-speaker2 lgx-single-speaker3">
+                                    
+                                    <figure>
+                                        <a class="profile-img"><img src="images/speakers/speaker3.png"
+                                                alt="speaker" /></a>
+                                        <figcaption>
+
+                                            <div class="speaker-info">
+                                                <h3 class="title">SHAAM E KHAAS</h3>
+                                                <h4 class="subtitle">TAG</h4>
+                                                <br>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <i class="fa fa-chevron-left fa-lg text-muted"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                    <i class="fa fa-chevron-right fa-lg text-muted"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- Carousel Initiative end -->
+
     <!-- Initiatives -->
     <section class="ticket-area jarallax over-layer-black" id="initiatives">
         <img class="jarallax-img" src="images/bg/3.jpg" alt="">
@@ -279,7 +424,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2>  Our <span>Initiatives  </span></h2>
+                        <h2> Our <span>Initiatives </span></h2>
                     </div>
                 </div>
             </div>
@@ -351,6 +496,7 @@
         </div>
     </section>
 
+
     <!-- Events Start -->
     <section class="schedule-area" id="schedules">
         <div class="shep-right">
@@ -388,11 +534,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="blog-single.html">ESUMMIT'18</a></h4>
+                                                <h4><a href="blog-single.html" target="_blank">ESUMMIT'18</a></h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                                     eiusmod tempor incididunt ut
                                                     labore et dolore magna aliqua.</p>
-                                                <a href="blog-single.html" class="btn btn-default btn-style btn-color"
+                                                <a href="blog-single.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -404,11 +550,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="Esummit-19.html">ESUMMIT'19</a></h4>
+                                                <h4><a href="Esummit-19.html" target="_blank">ESUMMIT'19</a></h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                                     eiusmod tempor incididunt ut
                                                     labore et dolore magna aliqua.</p>
-                                                <a href="Esummit-19.html" class="btn btn-default btn-style btn-color"
+                                                <a href="Esummit-19.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -427,11 +573,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="Ideathon-18.html">IDEATHON'18</a></h4>
+                                                <h4><a href="Ideathon-18.html" target="_blank">IDEATHON'18</a></h4>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but
                                                     the majority majority
                                                     have suffered.</p>
-                                                <a href="Ideathon-18.html" class="btn btn-default btn-style btn-color"
+                                                <a href="Ideathon-18.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -443,11 +589,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="Ideathon-19.html">IDEATHON'19</a></h4>
+                                                <h4><a href="Ideathon-19.html" target="_blank">IDEATHON'19</a></h4>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but
                                                     the majority majority
                                                     have suffered.</p>
-                                                <a href="Ideathon-19.html" class="btn btn-default btn-style btn-color"
+                                                <a href="Ideathon-19.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -466,11 +612,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="Workshops.html">WORKSHOP 1</a></h4>
+                                                <h4><a href="Workshops.html" target="_blank">WORKSHOP 1</a></h4>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but
                                                     the majority majority
                                                     have suffered.</p>
-                                                <a href="Workshops.html" class="btn btn-default btn-style btn-color"
+                                                <a href="Workshops.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -482,11 +628,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="Workshops.html">WORKSHOP 2</a></h4>
+                                                <h4><a href="Workshops.html" target="_blank">WORKSHOP 2</a></h4>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but
                                                     the majority majority
                                                     have suffered.</p>
-                                                <a href="Workshops.html" class="btn btn-default btn-style btn-color"
+                                                <a href="Workshops.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -498,11 +644,11 @@
                                                     <div class="overlay"></div>
                                                 </div>
 
-                                                <h4><a href="Workshops.html">WORKSHOP 3</a></h4>
+                                                <h4><a href="Workshops.html" target="_blank">WORKSHOP 3</a></h4>
                                                 <p>There are many variations of passages of Lorem Ipsum available, but
                                                     the majority majority
                                                     have suffered.</p>
-                                                <a href="Workshops.html" class="btn btn-default btn-style btn-color"
+                                                <a href="Workshops.html" target="_blank" class="btn btn-default btn-style btn-color"
                                                     style="font-size:16px  !important;">Read More</a>
                                             </div>
                                         </div>
@@ -517,8 +663,8 @@
         </div>
     </section>
 
-     <!-- Team -->
-     <section class="speakers-area" id="speakers" >
+    <!-- Team -->
+    <section class="speakers-area" id="speakers">
         <div class="shep-right">
             <img src="images/shep-right.png" alt="">
         </div>
@@ -533,9 +679,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row" >
+            <div class="row">
                 <div class="col-md-12">
-                    <div class="speaker-carousel speaker-box">
+                    <div class="speaker-carousel speaker-box" id="mediadiv">
                         <div class="our-speaker">
                             <img src="images/speaker/1.jpg" alt="">
                             <ul class="social">
@@ -562,158 +708,6 @@
                                 <span class="post">Web Designer</span>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--
-   
-    <section class="gallery-area" id="gallery">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title">
-                        <h2>Photo <span>Gallery</span></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-6 full-wd600 p-none">
-                    <div class="box">
-                        <img src="images/gellary/1.jpg" alt="">
-                        <div class="box-content">
-                            <h3 class="title">Photo One</h3>
-                            <ul class="icon">
-                                <li>
-                                    <a href="images/gellary/1.jpg" data-lightbox="lightbox" data-title="Photo Title">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6 full-wd600 p-none">
-                    <div class="box">
-                        <img src="images/gellary/2.jpg" alt="">
-                        <div class="box-content">
-                            <h3 class="title">Photo Two</h3>
-                            <ul class="icon">
-                                <li>
-                                    <a href="images/gellary/2.jpg" data-lightbox="lightbox" data-title="Photo Title">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6 full-wd600 p-none">
-                    <div class="box">
-                        <img src="images/gellary/3.jpg" alt="">
-                        <div class="box-content">
-                            <h3 class="title">Photo Three</h3>
-                            <ul class="icon">
-                                <li>
-                                    <a href="images/gellary/3.jpg" data-lightbox="lightbox" data-title="Photo Title">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6 full-wd600 p-none">
-                    <div class="box">
-                        <img src="images/gellary/4.jpg" alt="">
-                        <div class="box-content">
-                            <h3 class="title">Photo Four</h3>
-                            <ul class="icon">
-                                <li>
-                                    <a href="images/gellary/4.jpg" data-lightbox="lightbox" data-title="Photo Title">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6 full-wd600 p-none">
-                    <div class="box">
-                        <img src="images/gellary/5.jpg" alt="">
-                        <div class="box-content">
-                            <h3 class="title">Photo Five</h3>
-                            <ul class="icon">
-                                <li>
-                                    <a href="images/gellary/5.jpg" data-lightbox="lightbox" data-title="Photo Title">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-6 full-wd600 p-none">
-                    <div class="box">
-                        <img src="images/gellary/6.jpg" alt="">
-                        <div class="box-content">
-                            <h3 class="title">Photo Six</h3>
-                            <ul class="icon">
-                                <li>
-                                    <a href="images/gellary/6.jpg" data-lightbox="lightbox" data-title="Photo Title">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                </li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <!-- Counter Start -->
-    <section class="counter-area jarallax over-layer-black">
-        <img class="jarallax-img" src="images/bg/5.jpg" alt="">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 fw-600">
-                    <div class="counter-col wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".0s">
-                        <div class="counter">
-                            <div class="count">200</div>
-                        </div>
-                        <p>Startups</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 fw-600">
-                    <div class="counter-col wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-                        <div class="counter">
-                            <div class="count">1000</div>
-                        </div>
-                        <p>Team members yet</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 fw-600">
-                    <div class="counter-col wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
-                        <div class="counter">
-                            <div class="count">480</div>
-                        </div>
-                        <p>Cities</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 fw-600">
-                    <div class="counter-col wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">
-                        <div class="counter">
-                            <div class="count">150</div>
-                        </div>
-                        <p>Professionals</p>
                     </div>
                 </div>
             </div>
@@ -830,11 +824,14 @@
 
                         </div>
                         <ul>
-                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0s"><a href="#" class="fa fa-facebook"></a></li>
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0s"><a href="#"
+                                    class="fa fa-facebook"></a></li>
 
-                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s"><a href="#" class="fa fa-twitter"></a></li>
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.4s"><a href="#"
+                                    class="fa fa-twitter"></a></li>
 
-                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.8s"><a href="#" class="fa fa-linkedin"></a></li>
+                            <li class="wow zoomIn" data-wow-duration="1s" data-wow-delay="0.8s"><a href="#"
+                                    class="fa fa-linkedin"></a></li>
 
                         </ul>
                     </div>
